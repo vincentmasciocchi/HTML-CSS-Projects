@@ -1,0 +1,174 @@
+html {
+    background-color: #ffffff;
+}
+
+body {
+    background-color: #ede6e6;
+    margin: 0 auto;
+    width: 1180px;
+    font-family: arial, helvetica, sans-serif;
+}  
+
+a {
+    text-decoration: none;
+    color: #373535; 
+}
+
+/* HEADER  */
+
+header {
+    height: 150px;
+    padding-top: 20px;
+}
+
+ul {
+   padding: 0;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+    font-size: 16px;
+}
+
+header li:first-child {
+    
+}
+
+.left {
+    width: 320px;
+    float: left;
+}
+
+.left ul {
+    padding-left: 30px;
+    padding-top: 90px;
+     
+}
+.right {
+    width: 320px;
+    float: right;
+}
+
+.right ul {
+    float: right;
+    padding-top: 90px;
+    padding-right: 30px;
+}
+
+#logo {
+    width: 540px;
+    float: left;
+    text-align: center;
+    color: #b46363;
+    font-size: 36px;
+}
+
+#logo p {
+    margin: 0;
+}
+
+/* CONTENT */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * This rule triggers hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+#main {
+    background-image: url('images/italian-cuisine-2378729_1280.jpg');
+    height: 438px;
+}
+
+#main p {
+    margin: 0;
+    padding-top: 20px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+form {
+    padding-top: 30px;
+    text-align: center;
+}
+
+#email {
+    width: 200px;
+    height: 24px;
+    border-radius: 5px;
+    padding: 0;
+    margin-right: 8px;
+}
+
+#click {
+    height: 24px;
+    border-radius: 5px;
+}
+
+.box {
+    position: relative;
+    float: left;
+    margin: 15px 0;
+}
+
+.box img {
+    position: relative;
+    z-index: 1;
+    margin-left: 75px;
+}
+
+.box p {
+    position: absolute;
+    width: 100%;
+    top: 12px;
+    z-index: 2;
+    text-align: center;
+    font-size: 24px;
+    margin-left: 40px;
+}
+
+.middle p {
+    color: #ffffff;
+}
+
+/* FOOTER */
+
+nav {
+    font-size: 16px;
+    text-align: center;
+}
+
+footer {
+    background-color: #e5e0e0;
+    height: 140px;
+    padding-top:20px;
+    
+}
+
+footer li {
+
+}
+
+footer li:last-child {
+    border-right: none;
+}
+
+footer img {
+    display: block;
+    margin: 0 auto;
+}
+
